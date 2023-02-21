@@ -1,0 +1,30 @@
+{
+  "name": "klab-backend",
+  "version": "1.0.0",
+  "description": "Klab NodeJs Backend Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reconfort/Klab-Backend.git"
+  },
+  "author": "Reconfort",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reconfort/Klab-Backend/issues"
+  },
+  "homepage": "https://github.com/Reconfort/Klab-Backend#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "babel-node": "^0.0.1-security",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
